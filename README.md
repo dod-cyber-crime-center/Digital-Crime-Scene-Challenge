@@ -47,7 +47,7 @@ Legal
 
 ### License ###
 
-The DC3 Digital Crime Scene Challenge (hereafter “Software”) constitutes as a work of the United States Government and is not subject to domestic copyright protection under 
+The DC3 Digital Crime Scene Challenge (hereafter "Software") constitutes as a work of the United States Government and is not subject to domestic copyright protection under 
 17 USC § 105.
 
 This Software utilizes code licensed under the terms of the GNU General Public License (GPL) and therefore is licensed under GPL v2 or later:
