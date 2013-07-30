@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+@media screen
+{
+  table,
+	td, th
+	{
+		padding: 10px;
+		margin: 5px;
+	}
+
+	th
+	{  border-bottom: 1px solid #FFF;  }
+
+	.ui-block-a fieldset, 
+	.ui-block-b fieldset,
+  .ui-block-c fieldset
+	{  margin: 0 5px;  }
+
+	.ui-grid-b center 
+	{  min-height: 110px;  }
+  
+  .center
+  {  text-align: center;  }
+
+  td
+  {  font-weight: bolder;  }  
+}
+
+@media print 
+{
+  body * 
+  {
+    background: none;
+    border: none;
+    background-color: #FFF;
+    color: #000;
+    margin: 0 auto;
+    padding: 0;
+    width: 800px;
+  }
+
+  .ui-page *
+  {
+    width: 800px;
+    background: #FFF;
+  }
+
+  #header, 
+  #footer 
+  {  display: none;  }
+  
+  .print_only
+  {  display: block;  }
+
+  .print_only h2 
+  {
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  #scoreboard_content 
+  {
+    display: block;
+    color: #000;
+    background: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+
+  #scoreboard_content div 
+  {  clear: both;  }
+  
+  #scoreboard_content * 
+  {  border-radius: 0;  }
+  
+	#scoreboard_content table 
+  {
+    border: 1px solid #000;
+    border-spacing: 0;
+    padding: 5px;
+    margin: 0 auto 10px auto;
+    width: 600px;
+  }
+  
+  #scoreboard_content th
+  {
+    border-bottom: 2px solid #000;
+    margin: 0;
+  }
+  
+  #scoreboard_content td
+  {
+    margin: 0;
+    border: 1px solid #000;
+  }
+}

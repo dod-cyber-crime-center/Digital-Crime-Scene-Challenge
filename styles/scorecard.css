@@ -1,0 +1,100 @@
+/* CSS Document */
+
+@media screen
+{
+	.teamcard legend
+  {
+    margin: 20px 0 0 0;
+    padding: 10px 10px 5px 10px;
+  }
+  
+  .teamcard div
+  {  padding: 10px 0 0 15px;  }
+}
+
+@media print
+{
+  body *,
+  body .ui-body-c
+  {
+    background: none;
+    border: none;
+    background-color: #FFF;
+    color: #000;
+    margin: 0 auto;
+    padding: 0;
+    width: 800px;
+  }
+
+  .ui-page *
+  {
+    width: 800px;
+    background: #FFF;
+  }
+
+  #header, 
+  #footer 
+  {  display: none;  }
+  
+  .ui-body
+  {
+    border: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+  }
+  
+  .teamcard legend
+  {
+    border: none;
+    font-size: 1.5em;
+  }
+}
+
+.this .title
+{
+  padding-top: 10px;
+  background-color: #535353;
+  color: #FFF;
+  text-shadow: none;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.this th, 
+.this td
+{
+  border-bottom: 1px solid #FFF;
+  padding: 0 10px;
+  background-color: #F0F0F0;
+}
+
+.this td
+{  text-align: right;  }
+
+th:nth-child(1),
+td:nth-child(1),
+th:nth-child(2),
+td:nth-child(2)
+{  background-color: #CCC;  }
+
+tr:last-child td:first-child
+{  border-bottom-left-radius: 6px;  }
+
+tr:last-child td:last-child
+{  border-bottom-right-radius: 6px;  }
+
+.missed
+{  color: #900;  }
+
+.got
+{  color: #090;  }
+
+.sum td
+{
+  border-top: 2px solid #000;
+  border-bottom: none;
+  color: #000;
+  background: none;
+}

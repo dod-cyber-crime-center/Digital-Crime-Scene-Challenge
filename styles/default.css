@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body
+{  font: Arial, Verdana, "Comic Sans MS";  }
+
+form label
+{  vertical-align: top;  }
+
+/* GENERAL CLASS STYLES */
+.boxed
+{  -moz-border-radius: 6px;  }
+
+.center
+{  text-align: center;  }
+
+.centered
+{
+	width: 98%;
+	margin: 0 auto;
+}
+
+.cleared
+{  clear: both;  }
+
+.fleft
+{  float: left;  }
+
+.fright
+{  float: right;  }
+
+.header
+{
+	margin: 0;
+}
+
+.padded
+{  padding: 5px;  }
+
+.sidePadded
+{  padding: 5px 10px;  }
+
+input[readonly]
+{  font-style: italic;  }
+
+.hasCountdown
+{
+	background: none;
+	border: 0;
+}
+
+.red
+{  color: #F00;  }
+
+.green
+{  color: #090;  }
+
+@media print
+{
+	.print_only
+	{  display: block;  }
+}
+
+@media screen
+{
+  .print_only
+  {  display: none;  }
+}
+
+header
+{  text-align: center;  }
+
+header h1
+{  font-size: 1.5em;  }
+
+header h3
+{  font-size: 1em;  }
+
+footer h1
+{  font-size: 1.25em;  }
+
+footer
+{  text-align: center;  }
